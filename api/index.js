@@ -15,4 +15,4 @@ app.get('/hello-universe', (req, res) => {
   res.json({ message: 'Hello Universe!' });
 });
 
-module.exports.handler = serverless(app);
+module.exports = serverless(app);
